@@ -1,0 +1,114 @@
+.welcome
+  background url('../img/Grupa_13.png') no-repeat
+  position relative
+  padding 1% 0 0
+  background-color: #3695ff;
+  &> .container
+    position relative
+    text-transform: uppercase
+    width 90%
+.button-menu
+  position absolute
+  right 0
+  & a
+    width:25px
+    top 10px
+    height 19px
+    position absolute
+  & i
+    background-color white
+    position absolute
+    width 25px
+    height 3px
+  & i:nth-child(2)
+    top 6px
+    top: calc(50% - 1.5px)
+  & i:last-child
+    bottom 0
+
+.profile-img
+  position relative
+  display flex
+  justify-content center
+  align-items center
+  width 185px
+  height 185px
+  margin 0 auto
+  & .profile-img-i
+    border-radius 50%
+    width 141px
+    height 141px
+    z-index 20
+    background-color #ffffff
+    &::before, &::after
+      border-radius 50%
+      position absolute
+      content  ''
+      background-color #ffffff
+    &::before
+      z-index 1
+      top 11px
+      left 11px
+      width 164px
+      height 164px
+      opacity: 0.09;
+    &::after
+      top 0
+      left 0
+      z-index 0
+      opacity: 0.06;
+      width: 185px;
+      height: 185px;
+.welcome--h1
+  text-align center
+  color white
+  font-family: "Lato - Black",sans-serif;
+  font-size: 50px;
+  letter-spacing: 1.25px;
+  font-weight: 400;
+  line-height: 60px;
+.welcome--p
+  text-align center
+  width 85%
+  margin auto
+  color: #ffffff;
+  font-family: Lato
+  font-size: 16px
+  font-weight: 300
+  line-height: 35px
+  letter-spacing: 0.4px
+.welcome--a
+  margin 75px auto
+  display flex
+  justify-content center
+  & a
+    padding 21px 70px
+    background-color white
+    border-radius 28px
+    color: #3695ff
+    font-size: 16px
+    font-weight: 700
+    letter-spacing: 0.4px
+.welcome--button-bottom
+  text-align center
+  padding-bottom 2%
+  left 0
+.aboutMe
+  padding 50px 0 115px
+  & h2
+    // Style for "About Me"
+    text-align center
+    background-image: linear-gradient(51deg, #3695ff 0%, #3564fc 100%)
+    background-clip: text
+    color: #3677fd
+    font-size: 50px
+    font-weight: 300
+    line-height: 35.12px
+  & p
+    width 90%
+    margin 70px auto 0
+    text-align center
+    color: #5a5a5a
+    font-size: 16px
+    font-weight: 400
+    line-height: 35px

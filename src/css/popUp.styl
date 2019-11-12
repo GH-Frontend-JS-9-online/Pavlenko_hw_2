@@ -1,0 +1,140 @@
+.window-popUp
+  position fixed
+  top 0
+  width 100%
+  height 100%
+  z-index 20
+  background-color rgba(0,0,0,.7)
+  justify-content center
+  align-items center
+.window-popUp-bg
+  overflow hidden
+  margin auto
+  position: relative;
+  padding-bottom  61px
+  width 90%
+  max-width 812px;
+  background-color white
+  border-radius: 10px;
+  & .close
+    position absolute
+    top 20px
+    right 20px
+  & h2
+    color: #3677fd;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 98px;
+.windows-HireMe
+  display flex
+  flex-direction column
+  align-items center
+  & input, & textarea
+    width 90%
+    max-width: 517px;
+    border-radius: 10px;
+    border: 1px solid #b7c0c9;
+    background-color: #ffffff;
+    padding 16px 20px
+    margin-bottom 16px
+  & a
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding 21px 41px
+    border-radius: 28px;
+    background: linear-gradient(51deg, #3695ff 0%, #3564fc 100%);
+.windows-pupUp-work, .windows-pupUp-HireMe
+  display none
+.windows-active
+  display flex!important
+
+
+.windows-pupUp-menu
+  display none
+  & nav
+    display flex
+    flex-direction column
+    align-items center
+    padding-bottom 80px
+    & a
+      transition .7s color
+      color: #d2d2d2;
+      font-family: Lato;
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 98px;
+      &:hover
+        color: #3677fd;
+  & .socialMedia
+    padding-top 75px
+    border-top 2px solid  rgba(25,66,119,.2)
+    width 50%
+    margin auto
+    & ul
+      display flex
+      justify-content space-between
+      align-items center
+      & li
+        transition .7s background-color
+        width: 51px;
+        height: 51px;
+        border-radius 50%
+        background-color: #e1e1e1;
+        display: flex;
+        justify-content: center
+        align-items center
+        &:hover
+          background-color #3677fd
+  & .language
+    position absolute
+    bottom 24px
+    right 24px
+.windows-pupUp-work{
+  position absolute
+  height auto
+}
+.workMenu
+  background-color: #f1f8ff;
+  padding 20px 30px
+  display flex
+  align-items center
+  img
+    width 42px
+    margin-right 33px
+  h4
+    width: 334px;
+    height: 31px;
+    color: #3677fd;
+    font-family: Lato;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 24px;
+    margin 0
+    margin-right 80px
+  ul
+    display flex
+    justify-content space-between
+    align-items center
+    li
+      margin-right 21px
+      padding 5px 20px
+      border: 1px solid rgba(90, 90, 90, 0.16);
+      background-color: #ffffff;
+      border-radius: 10px;
+      color: #5a5a5a;
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 29.62px;
+.work-img
+  width 90%
+
+  margin 51px auto 0
+  & img
+    width 100%
+
+
+
